@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable before it has been initialized.  This often happens when using asynchronous operations within a component's lifecycle methods, such as `useEffect` or `componentDidMount`.  React Native will complain with a `Cannot read properties of undefined (reading '...')` error.
